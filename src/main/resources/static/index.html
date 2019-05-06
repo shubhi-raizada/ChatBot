@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Chat Bot</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Chat Message service</a>
+        </div>
+    </div>
+</nav>
+<div class="container" style="padding-top: 80px">
+    <h2>Purpose</h2>
+    <p>A very simple 'chat' application backend in Java/Spring-boot. 
+    A user should be able to send a simple text message to another user and 
+    a user should be able to get the messages sent to him and the author users of those messages. 
+    The users and messages are stored in a simple in-memory h2 database. 
+    All communication between the client and server should happen over a simple JSON based protocol over HTTP 
+    (which may be periodically refreshed to poll for new messages). 
+    </p>
+    <h2>Important links</h2>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="/actuator/health">Health Check</a></li>
+        <li class="list-group-item"><a href="swagger-ui.html">Documentation</a></li>
+    </ul>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
